@@ -3,7 +3,8 @@
         "data": {
             "id": "dacjlsx75j40",
             "created": 1748917763523,
-            "text": "区块链与We3基础"
+            "text": "区块链与We3基础",
+            "expandState": "expand"
         },
         "children": [
             {
@@ -23,7 +24,7 @@
                             "progress": null,
                             "priority": null,
                             "layout": null,
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "font-weight": "bold",
                             "note": "一个存储在多个节点上的共享数据库。\n通过去中心化的方式记录数据，确保数据信息的透明性和不可纂改性。"
                         },
@@ -33,7 +34,7 @@
                                     "id": "dack0wc7lgw0",
                                     "created": 1748918946423,
                                     "text": "去中心化",
-                                    "expandState": "collapse",
+                                    "expandState": "expand",
                                     "layout": null,
                                     "font-weight": "bold",
                                     "note": "不依赖单一的中心化机构，通过多个节点共同维护和验证数据。每个节点都持有账本的完整副本。"
@@ -58,7 +59,8 @@
                                             "text": "抗审查",
                                             "layout": null,
                                             "note": "没有中心化实体能够控制或干预账本的数据更新。",
-                                            "font-weight": "bold"
+                                            "font-weight": "bold",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -69,7 +71,7 @@
                                     "id": "dack10hht080",
                                     "created": 1748918955450,
                                     "text": "透明性",
-                                    "expandState": "collapse",
+                                    "expandState": "expand",
                                     "layout": null,
                                     "font-weight": "bold",
                                     "note": "分布式账本中的所有数据对参与者公开可见，任何人都可以验证账本内容的真实性。"
@@ -82,7 +84,8 @@
                                             "text": "信任",
                                             "layout": null,
                                             "note": "用户无需依赖第三方中介即可验证数据的完整性。",
-                                            "font-weight": "bold"
+                                            "font-weight": "bold",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -93,7 +96,8 @@
                                             "text": "公平性",
                                             "layout": null,
                                             "note": "所有参与者对数据的访问权限平等。",
-                                            "font-weight": "bold"
+                                            "font-weight": "bold",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -107,7 +111,7 @@
                                     "layout": null,
                                     "font-weight": "bold",
                                     "note": "分布式账本中所有节点都会存储相同的记录，任何人纂改数据都会被网络中的其它节点检测到。",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -117,7 +121,8 @@
                                             "text": "数据安全",
                                             "layout": null,
                                             "note": "没有中心化实体能够控制或干预账本的数据更新。",
-                                            "font-weight": "bold"
+                                            "font-weight": "bold",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -128,7 +133,8 @@
                                             "text": "可追溯",
                                             "layout": null,
                                             "note": "数据修改历史公开且可验证。",
-                                            "font-weight": "bold"
+                                            "font-weight": "bold",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -142,7 +148,7 @@
                             "created": 1748919942214,
                             "text": "区块",
                             "font-weight": "bold",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "note": "区块链的基本组成单位，是记录交易和数据的容器。一个区块就是区块链中的一个数据包，包含一组经过验证的交易以及其它与区块链状态相关的信息。区块存储数据并连接到链上的前一个区块，形成连续、不可纂改的链条，保障数据完整性。"
                         },
                         "children": [
@@ -151,7 +157,7 @@
                                     "id": "dackdvt6mgo0",
                                     "created": 1748919964007,
                                     "text": "区块结构",
-                                    "expandState": "collapse",
+                                    "expandState": "expand",
                                     "font-weight": "bold"
                                 },
                                 "children": [
@@ -161,7 +167,8 @@
                                             "created": 1748920000502,
                                             "text": "区块头(Block Header)",
                                             "note": "提供区块的元信息并链接其它区块，确保区块链的顺序性及数据完整性，包含前一区块哈希值、时间戳、哈希值树Merkle根等。",
-                                            "font-weight": "bold"
+                                            "font-weight": "bold",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -171,7 +178,8 @@
                                             "created": 1748920009357,
                                             "text": "区块体(Block Body)",
                                             "note": "储存区块的核心内容，及经过验证的交易数据或其它记录。",
-                                            "font-weight": "bold"
+                                            "font-weight": "bold",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -183,7 +191,7 @@
                                     "created": 1748919976006,
                                     "text": "生成过程",
                                     "font-weight": "bold",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -192,7 +200,8 @@
                                             "created": 1748920040423,
                                             "text": "交易收集",
                                             "note": "网络节点接收用户广播的交易，将其存入内存池(mempool)。",
-                                            "font-weight": "bold"
+                                            "font-weight": "bold",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -202,7 +211,8 @@
                                             "created": 1748920053460,
                                             "text": "打包验证",
                                             "note": "矿工或验证节点按照公式算法，将合法交易打包成区块。",
-                                            "font-weight": "bold"
+                                            "font-weight": "bold",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -212,7 +222,8 @@
                                             "created": 1748920059132,
                                             "text": "公式验证",
                                             "note": "其它节点验证区块的合法性，并将其加入区块链。",
-                                            "font-weight": "bold"
+                                            "font-weight": "bold",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -224,7 +235,7 @@
                                     "created": 1748919992469,
                                     "text": "区块作用",
                                     "font-weight": "bold",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -233,7 +244,8 @@
                                             "created": 1748920068313,
                                             "text": "记录交易",
                                             "note": "每个区块存储一组经过验证的交易，为网络的完整运行提供基础。",
-                                            "font-weight": "bold"
+                                            "font-weight": "bold",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -243,7 +255,8 @@
                                             "created": 1748920072841,
                                             "text": "连接节点",
                                             "note": "区块之间的哈希链接确保了整个网络的连续性和安全性。",
-                                            "font-weight": "bold"
+                                            "font-weight": "bold",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -253,7 +266,8 @@
                                             "created": 1748920077775,
                                             "text": "防纂改证明",
                                             "note": "区块头中的哈希值和时间戳使数据的纂改难度极高。",
-                                            "font-weight": "bold"
+                                            "font-weight": "bold",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -268,7 +282,7 @@
                             "text": "共识算法",
                             "font-weight": "bold",
                             "note": "分布式系统中用来确保所有节点对数据状态达成一致的机制，确保网络中没有中心化权威的情况下，仍能安全地记录和更新数据。",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -278,14 +292,15 @@
                                     "text": "工作量证明（PoW，Proof or Work）",
                                     "font-weight": "bold",
                                     "note": "节点（矿工）通过解决复杂数学问题（哈希计算）来竞争区块打包权，最先完成的节点获得记账权和区块奖励。",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dackwlr8i740",
                                             "created": 1748921431040,
-                                            "text": "优点：高安全性，抵抗恶意节点攻击的能力强（比特币网络BTC）"
+                                            "text": "优点：高安全性，抵抗恶意节点攻击的能力强（比特币网络BTC）",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -293,7 +308,8 @@
                                         "data": {
                                             "id": "dackxapxc5c0",
                                             "created": 1748921485381,
-                                            "text": "缺点：能源消耗巨大，交易速度慢。"
+                                            "text": "缺点：能源消耗巨大，交易速度慢。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -306,14 +322,15 @@
                                     "text": "权益证明（PoS，Proof of Stake）",
                                     "font-weight": "bold",
                                     "note": "节点通过锁定一定数量的代币（“权益”Stake）获得参与验证的资格，选取验证者的概率与其质押的代币数量成正比。",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dackxix1l0o0",
                                             "created": 1748921503225,
-                                            "text": "优点：能耗低，验证速度快。"
+                                            "text": "优点：能耗低，验证速度快。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -321,7 +338,8 @@
                                         "data": {
                                             "id": "dackxs8np7c0",
                                             "created": 1748921523519,
-                                            "text": "缺点：大额代币持有者更有可能获得验证资格和区块打包权，可能具有中心化倾向。"
+                                            "text": "缺点：大额代币持有者更有可能获得验证资格和区块打包权，可能具有中心化倾向。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -336,7 +354,7 @@
                             "text": "哈希算法",
                             "font-weight": "bold",
                             "note": "一种加密算法，可以将任意长度的输入数据映射为固定长度的输出值，用于数据完整性校验和唯一性验证。",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -345,7 +363,8 @@
                                     "created": 1748921960751,
                                     "text": "单向性",
                                     "note": "哈希算法是不可逆的，即无法从哈希值反向推算出原始数据。",
-                                    "font-weight": "bold"
+                                    "font-weight": "bold",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -355,7 +374,8 @@
                                     "created": 1748921968857,
                                     "text": "高敏感性",
                                     "note": "输入数据的微小变化会导致哈希值完全不同。\nHash(\"Alice123\")->0x12df56..\nHash(\"Alice124\")->0x23cd78..",
-                                    "font-weight": "bold"
+                                    "font-weight": "bold",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -365,7 +385,8 @@
                                     "created": 1748921976199,
                                     "text": "抗碰撞性",
                                     "note": "不同的输入生成相同哈希值的可能性极低。",
-                                    "font-weight": "bold"
+                                    "font-weight": "bold",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             }
@@ -387,7 +408,7 @@
                             "id": "dacl941gp280",
                             "created": 1748922411211,
                             "text": "账户",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "note": "账户体系是用户与区块链交互的基础。具有去中心化、无中介和自主控制等特点，用户通过加密技术直接管理资产和数据。"
                         },
                         "children": [
@@ -396,7 +417,7 @@
                                     "id": "dacl9onwh400",
                                     "created": 1748922456103,
                                     "text": "组件",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -404,7 +425,8 @@
                                             "id": "dacl9wjguj40",
                                             "created": 1748922473249,
                                             "text": "私钥",
-                                            "note": "控制Web3账户的核心工具，由用户存储，用于前面授权交易。丢失私钥等于丢失账户的控制权。"
+                                            "note": "控制Web3账户的核心工具，由用户存储，用于前面授权交易。丢失私钥等于丢失账户的控制权。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -413,7 +435,8 @@
                                             "id": "dacl9zc8ars0",
                                             "created": 1748922479342,
                                             "text": "地址",
-                                            "note": "从私钥生成的公开标识符，用于接收和识别资产。\n如0x开头的以太坊地址。"
+                                            "note": "从私钥生成的公开标识符，用于接收和识别资产。\n如0x开头的以太坊地址。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -422,7 +445,8 @@
                                             "id": "dacla0rc8l40",
                                             "created": 1748922482432,
                                             "text": "交互",
-                                            "note": "同一个Web3账户可以跨多个去中心化应用登录签名使用，作为通用身份和资产管理工具。"
+                                            "note": "同一个Web3账户可以跨多个去中心化应用登录签名使用，作为通用身份和资产管理工具。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -433,7 +457,7 @@
                                     "id": "dacl9t94j540",
                                     "created": 1748922466094,
                                     "text": "账户类型",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -441,7 +465,8 @@
                                             "id": "dacla381nq80",
                                             "created": 1748922487796,
                                             "text": "外部拥有账户(Externally Owned Account, EOA)",
-                                            "note": "由私钥直接控制的账户，通常由用户通过钱包（MetaMask，OKX）管理。能主动发起交易（转账、调用智能合约）。只能存储代币和支付Gas费用，不能存储代码或运行逻辑。"
+                                            "note": "由私钥直接控制的账户，通常由用户通过钱包（MetaMask，OKX）管理。能主动发起交易（转账、调用智能合约）。只能存储代币和支付Gas费用，不能存储代码或运行逻辑。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -450,7 +475,8 @@
                                             "id": "dacla8cq0080",
                                             "created": 1748922498963,
                                             "text": "智能合约账户(Contract Account)",
-                                            "note": "由区块链上的代码控制，行为由预定义逻辑决定。无法主动发起交易，只能在收到EOA或其它合约调用时响应。"
+                                            "note": "由区块链上的代码控制，行为由预定义逻辑决定。无法主动发起交易，只能在收到EOA或其它合约调用时响应。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -463,7 +489,7 @@
                             "id": "daclir1lujk0",
                             "created": 1748923166563,
                             "text": "账户模型",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "note": "用于存储和管理用户的资产和交易记录。"
                         },
                         "children": [
@@ -472,7 +498,7 @@
                                     "id": "daclitkmzco0",
                                     "created": 1748923172067,
                                     "text": "UTXO模型",
-                                    "expandState": "collapse",
+                                    "expandState": "expand",
                                     "note": "将资产视为不可分割的“硬币”。账户中的余额是未消费交易输出（UTXO）的集合，每次交易会“花费”已有UTXO，并创建新的UTXO。\nAlice持有两个UTXO，一个为3BTC，另一个为2BTC。当她支付Bob 4BTC时，系统会“消费”这两个UTXO，并生成一个新的1BTC找零UTXO。"
                                 },
                                 "children": [
@@ -480,7 +506,8 @@
                                         "data": {
                                             "id": "dacljk2i9uw0",
                                             "created": 1748923229744,
-                                            "text": "代表链：比特币"
+                                            "text": "代表链：比特币",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -491,7 +518,7 @@
                                     "id": "daclixjnhjs0",
                                     "created": 1748923180715,
                                     "text": "账户余额模型",
-                                    "expandState": "collapse",
+                                    "expandState": "expand",
                                     "note": "类似银行账户，直接存储用户账户地址的余额和状态。（但与银行不同，银行可以以某些方式达到类似回溯交易，但Web3账户对以打包上链的交易不可回溯）\nAlice的以太坊账户有10ETH。当她转账2ETH给Bob后，其余额变为8ETH，而Bob的余额增加至2ETH。"
                                 },
                                 "children": [
@@ -499,7 +526,8 @@
                                         "data": {
                                             "id": "daclj3p4log0",
                                             "created": 1748923194107,
-                                            "text": "代表链：以太坊及其兼容链"
+                                            "text": "代表链：以太坊及其兼容链",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -513,7 +541,7 @@
                             "created": 1748924890086,
                             "text": "智能合约",
                             "note": "部署在区块链上的自执行程序，能够根据预设条件自动执行操作，无需认为干预。通过对区块链读取与写入，智能合约能保证代码的执行结果透明且不可纂改。",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -521,7 +549,7 @@
                                     "id": "dacm4twyh1s0",
                                     "created": 1748924896824,
                                     "text": "特点",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -529,7 +557,8 @@
                                             "id": "dacm5fwtpq80",
                                             "created": 1748924944705,
                                             "text": "自动化",
-                                            "note": "基于预设条件自动完成复杂的交易或流程（借贷、清算等），无需人工干预。"
+                                            "note": "基于预设条件自动完成复杂的交易或流程（借贷、清算等），无需人工干预。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -538,7 +567,8 @@
                                             "id": "dacm5key1g80",
                                             "created": 1748924954508,
                                             "text": "不可纂改",
-                                            "note": "一旦部署到区块链，其代码和规则无法更改。"
+                                            "note": "一旦部署到区块链，其代码和规则无法更改。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -547,7 +577,8 @@
                                             "id": "dacm5mcmlsw0",
                                             "created": 1748924958721,
                                             "text": "透明性",
-                                            "note": "代码和操作过程都对公众可见，任何人可以验证其逻辑是否被正确执行。"
+                                            "note": "代码和操作过程都对公众可见，任何人可以验证其逻辑是否被正确执行。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -558,7 +589,7 @@
                                     "id": "dacm4xa1qzk0",
                                     "created": 1748924904146,
                                     "text": "工作机制",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -566,7 +597,8 @@
                                             "id": "dacm5poh89k0",
                                             "created": 1748924965968,
                                             "text": "合约部署",
-                                            "note": "一经部署会生成固定合约地址，所有代码规则都被写入区块链，无法更改或删除。"
+                                            "note": "一经部署会生成固定合约地址，所有代码规则都被写入区块链，无法更改或删除。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -575,7 +607,8 @@
                                             "id": "dacm5rhm0800",
                                             "created": 1748924969906,
                                             "text": "合约调用",
-                                            "note": "通过钱包或dApp调用智能合约的函数，提交交易或出发逻辑。"
+                                            "note": "通过钱包或dApp调用智能合约的函数，提交交易或出发逻辑。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -584,7 +617,8 @@
                                             "id": "dacm5tf18ag0",
                                             "created": 1748924974104,
                                             "text": "写入区块",
-                                            "note": "区块链节点验证交易，并根据合约逻辑更新区块链状态。"
+                                            "note": "区块链节点验证交易，并根据合约逻辑更新区块链状态。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -595,14 +629,15 @@
                                     "id": "dacm4zek3bs0",
                                     "created": 1748924908772,
                                     "text": "编程语言",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dacm52n7n480",
                                             "created": 1748924915826,
-                                            "text": "Solidity"
+                                            "text": "Solidity",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -610,7 +645,8 @@
                                         "data": {
                                             "id": "dacm55xom1k0",
                                             "created": 1748924922989,
-                                            "text": "Rust"
+                                            "text": "Rust",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -618,7 +654,8 @@
                                         "data": {
                                             "id": "dacm595rmsg0",
                                             "created": 1748924930008,
-                                            "text": "Move"
+                                            "text": "Move",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -631,7 +668,7 @@
                             "id": "dacmdy6bsso0",
                             "created": 1748925611375,
                             "text": "链上交易",
-                            "expandState": "collapse",
+                            "expandState": "expand",
                             "note": "区块链状态改变的主要方式，每笔交易的基本生命周期包括创建、广播、打包、确认。"
                         },
                         "children": [
@@ -639,7 +676,8 @@
                                 "data": {
                                     "id": "dacme1ffffk0",
                                     "created": 1748925618456,
-                                    "text": "交易创建：用户通过钱包或合约交互生成交易，指定发送方、接收方和金额。"
+                                    "text": "交易创建：用户通过钱包或合约交互生成交易，指定发送方、接收方和金额。",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -647,7 +685,8 @@
                                 "data": {
                                     "id": "dacme49drnk0",
                                     "created": 1748925624620,
-                                    "text": "交易广播：交易被发送到区块链网络，所有节点收到交易并验证合法性。"
+                                    "text": "交易广播：交易被发送到区块链网络，所有节点收到交易并验证合法性。",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -655,7 +694,8 @@
                                 "data": {
                                     "id": "dacme6cj8nc0",
                                     "created": 1748925629164,
-                                    "text": "交易确认：矿工或验证节点将交易打包到区块中，添加到区块链上。"
+                                    "text": "交易确认：矿工或验证节点将交易打包到区块中，添加到区块链上。",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             }
@@ -693,7 +733,8 @@
                                         "data": {
                                             "id": "dacmgluvlco0",
                                             "created": 1748925819654,
-                                            "text": "私钥和地址"
+                                            "text": "私钥和地址",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -702,7 +743,8 @@
                                             "id": "dacmgnz29pc0",
                                             "created": 1748925824260,
                                             "text": "交易签名",
-                                            "note": "钱包对使用私钥对交易进行加密签名，确保交易的合法性和不可否认性"
+                                            "note": "钱包对使用私钥对交易进行加密签名，确保交易的合法性和不可否认性",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -710,7 +752,8 @@
                                         "data": {
                                             "id": "dacmgrhxpvs0",
                                             "created": 1748925831932,
-                                            "text": "交互"
+                                            "text": "交互",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -729,7 +772,8 @@
                                             "id": "dacmgutw97k0",
                                             "created": 1748925839185,
                                             "text": "托管钱包",
-                                            "note": "私钥由托管方存储和管理，用户通过账户名和密码访问钱包，常用于中心化交易所。"
+                                            "note": "私钥由托管方存储和管理，用户通过账户名和密码访问钱包，常用于中心化交易所。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -738,7 +782,8 @@
                                             "id": "dacmgweosd40",
                                             "created": 1748925842619,
                                             "text": "非托管钱包",
-                                            "note": "私钥由用户自行保存，完全掌控资产，丢失私钥意味着资产无法找回。"
+                                            "note": "私钥由用户自行保存，完全掌控资产，丢失私钥意味着资产无法找回。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -747,7 +792,8 @@
                                             "id": "dacmgyg4rb40",
                                             "created": 1748925847060,
                                             "text": "热钱包",
-                                            "note": "非托管热钱包通过互联网连接，适合日常交易和dApp交互"
+                                            "note": "非托管热钱包通过互联网连接，适合日常交易和dApp交互",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -756,7 +802,8 @@
                                             "id": "dacmgzxqcg80",
                                             "created": 1748925850301,
                                             "text": "冷钱包",
-                                            "note": "非托管冷钱包将私钥离线存储以提高安全性"
+                                            "note": "非托管冷钱包将私钥离线存储以提高安全性",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -769,7 +816,8 @@
                             "id": "dacmk7wdfm00",
                             "created": 1748926102726,
                             "text": "去中心化应用 DApp",
-                            "note": "基于区块链构建，用户数据存储在区块链上，由用户自行管理，应用开发者无法擅自修改数据或限制访问权限。"
+                            "note": "基于区块链构建，用户数据存储在区块链上，由用户自行管理，应用开发者无法擅自修改数据或限制访问权限。",
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -778,7 +826,8 @@
                             "id": "dacmkb19pqo0",
                             "created": 1748926109552,
                             "text": "去中心化自治组织 DAO",
-                            "note": "Decentralized Autonomous Organization\n去中心化的组织形式，基于区块链智能合约实现规则和治理，允许社区成员共同决策，无需传统的管理层。\n成员通过持有代币或NFT而享有投票权，可以对协议或社区事务进行公开的链上投票表决。"
+                            "note": "Decentralized Autonomous Organization\n去中心化的组织形式，基于区块链智能合约实现规则和治理，允许社区成员共同决策，无需传统的管理层。\n成员通过持有代币或NFT而享有投票权，可以对协议或社区事务进行公开的链上投票表决。",
+                            "expandState": "expand"
                         },
                         "children": []
                     },
@@ -787,7 +836,8 @@
                             "id": "dacmkxwe3rs0",
                             "created": 1748926159323,
                             "text": "去中心化金融 DeFi",
-                            "note": "Decentralized Finance\n建议在区块链上的金融系统，无需银行等中介机构，提供借贷、交易、收益聚合等服务，用户直接通过智能合约操作。"
+                            "note": "Decentralized Finance\n建议在区块链上的金融系统，无需银行等中介机构，提供借贷、交易、收益聚合等服务，用户直接通过智能合约操作。",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -802,7 +852,8 @@
                                         "data": {
                                             "id": "dacmp5awneo0",
                                             "created": 1748926488895,
-                                            "text": "无中介：资金由用户自行控制"
+                                            "text": "无中介：资金由用户自行控制",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -810,7 +861,8 @@
                                         "data": {
                                             "id": "dacmp6oer000",
                                             "created": 1748926491888,
-                                            "text": "时效性：交易和清算由智能合约自动完成，时间是区块确认时间。"
+                                            "text": "时效性：交易和清算由智能合约自动完成，时间是区块确认时间。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -818,7 +870,8 @@
                                         "data": {
                                             "id": "dacmp8a3e140",
                                             "created": 1748926495376,
-                                            "text": "抗审查：任何人都可以参与，无需传统金融的准入条件审查和地域限制（开户、资产要求等）"
+                                            "text": "抗审查：任何人都可以参与，无需传统金融的准入条件审查和地域限制（开户、资产要求等）",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -836,7 +889,8 @@
                                         "data": {
                                             "id": "dacmph01h4o0",
                                             "created": 1748926514359,
-                                            "text": "去中心化交易所（DEX）：允许用户基于自动代币对做市商等自行买卖交易加密货币。"
+                                            "text": "去中心化交易所（DEX）：允许用户基于自动代币对做市商等自行买卖交易加密货币。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -844,7 +898,8 @@
                                         "data": {
                                             "id": "dacmpnyl1200",
                                             "created": 1748926529509,
-                                            "text": "借贷：允许用户在没有传统银行的情况下进行借款或放贷。"
+                                            "text": "借贷：允许用户在没有传统银行的情况下进行借款或放贷。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -852,7 +907,8 @@
                                         "data": {
                                             "id": "dacmppb2t740",
                                             "created": 1748926532441,
-                                            "text": "稳定币：通常与法定货币价格挂钩的加密货币，用于降低加密市场的波动性和便利支付。"
+                                            "text": "稳定币：通常与法定货币价格挂钩的加密货币，用于降低加密市场的波动性和便利支付。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -860,7 +916,8 @@
                                         "data": {
                                             "id": "dacmprx05dc0",
                                             "created": 1748926538120,
-                                            "text": "质押和流动性挖矿：用户将一定数量的加密货币锁定在某个区块链网络或协议中，通过提供流动性到协议，赚取相应的代币奖励或利息。"
+                                            "text": "质押和流动性挖矿：用户将一定数量的加密货币锁定在某个区块链网络或协议中，通过提供流动性到协议，赚取相应的代币奖励或利息。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -888,7 +945,8 @@
                                         "data": {
                                             "id": "dacmug16s4g0",
                                             "created": 1748926904073,
-                                            "text": "不可复制：NFT的唯一性由链上数据保证，其唯一ID可以在链上被验证。"
+                                            "text": "不可复制：NFT的唯一性由链上数据保证，其唯一ID可以在链上被验证。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -896,7 +954,8 @@
                                         "data": {
                                             "id": "dacmuybr7cg0",
                                             "created": 1748926943894,
-                                            "text": "可交易：一些NFT在二级市场中交易，且交易历史和价格均在链上可查，公开透明。"
+                                            "text": "可交易：一些NFT在二级市场中交易，且交易历史和价格均在链上可查，公开透明。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -907,14 +966,15 @@
                                     "id": "dacmuc2vt0w0",
                                     "created": 1748926895468,
                                     "text": "应用",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dacmvrbyhuw0",
                                             "created": 1748927007033,
-                                            "text": "数字藏品"
+                                            "text": "数字藏品",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -922,7 +982,8 @@
                                         "data": {
                                             "id": "dacmvuxsytc0",
                                             "created": 1748927014884,
-                                            "text": "身份验证"
+                                            "text": "身份验证",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -930,7 +991,8 @@
                                         "data": {
                                             "id": "dacmvxshgnc0",
                                             "created": 1748927021093,
-                                            "text": "数字证书"
+                                            "text": "数字证书",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }

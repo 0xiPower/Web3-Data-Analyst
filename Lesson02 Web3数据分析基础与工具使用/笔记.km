@@ -14,8 +14,8 @@
                     "text": "链上数据结构",
                     "expandState": "expand",
                     "layout_right_offset": {
-                        "x": 12,
-                        "y": -4
+                        "x": 26,
+                        "y": 103
                     }
                 },
                 "children": [
@@ -25,14 +25,15 @@
                             "created": 1748928001121,
                             "text": "交易数据",
                             "note": "包含交易信息的数据，如转账资金、\n收发地址、手续费等；",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dacnaaow9pk0",
                                     "created": 1748928146272,
-                                    "text": "交易哈希"
+                                    "text": "交易哈希",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -40,7 +41,8 @@
                                 "data": {
                                     "id": "dacnadk3ee00",
                                     "created": 1748928152512,
-                                    "text": "交易状态"
+                                    "text": "交易状态",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -48,7 +50,8 @@
                                 "data": {
                                     "id": "dacnafy5uc80",
                                     "created": 1748928157717,
-                                    "text": "区块"
+                                    "text": "区块",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -56,7 +59,8 @@
                                 "data": {
                                     "id": "dacnai6x6fs0",
                                     "created": 1748928162600,
-                                    "text": "时间戳"
+                                    "text": "时间戳",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -64,7 +68,8 @@
                                 "data": {
                                     "id": "dacnakcbglk0",
                                     "created": 1748928167280,
-                                    "text": "收发双方地址"
+                                    "text": "收发双方地址",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -72,7 +77,8 @@
                                 "data": {
                                     "id": "dacnamcr5sw0",
                                     "created": 1748928171660,
-                                    "text": "该笔交易转账的ETH数量"
+                                    "text": "该笔交易转账的ETH数量",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -80,7 +86,8 @@
                                 "data": {
                                     "id": "dacnap38z080",
                                     "created": 1748928177615,
-                                    "text": "交易费"
+                                    "text": "交易费",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -88,7 +95,8 @@
                                 "data": {
                                     "id": "dacnar8imps0",
                                     "created": 1748928182287,
-                                    "text": "Gas费"
+                                    "text": "Gas费",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -97,7 +105,8 @@
                                     "id": "dacnar7nrqo0",
                                     "created": 1748928182235,
                                     "text": "Nonce",
-                                    "note": "交易发起者账户的交易计数器，用于防止重复交易。"
+                                    "note": "交易发起者账户的交易计数器，用于防止重复交易。",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             }
@@ -109,14 +118,15 @@
                             "created": 1748928001143,
                             "text": "区块数据",
                             "note": "区块自身信息数据，如时间戳、验\n证者、包含的交易及交易排序等；",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dacnb7ojl5s0",
                                     "created": 1748928218085,
-                                    "text": "区块高度"
+                                    "text": "区块高度",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -124,7 +134,8 @@
                                 "data": {
                                     "id": "dacnbbta9rk0",
                                     "created": 1748928227079,
-                                    "text": "区块哈希"
+                                    "text": "区块哈希",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -132,7 +143,8 @@
                                 "data": {
                                     "id": "dacnbbtsa9c0",
                                     "created": 1748928227109,
-                                    "text": "时间戳"
+                                    "text": "时间戳",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -140,7 +152,8 @@
                                 "data": {
                                     "id": "dacnbgpx9vc0",
                                     "created": 1748928237759,
-                                    "text": "验证者/矿工地址"
+                                    "text": "验证者/矿工地址",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -148,7 +161,8 @@
                                 "data": {
                                     "id": "dacnbjn2knc0",
                                     "created": 1748928244117,
-                                    "text": "区块中的交易列表"
+                                    "text": "区块中的交易列表",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -156,7 +170,8 @@
                                 "data": {
                                     "id": "dacnblxpc600",
                                     "created": 1748928249114,
-                                    "text": "Gas费"
+                                    "text": "Gas费",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             }
@@ -168,14 +183,15 @@
                             "created": 1748928018618,
                             "text": "合约数据",
                             "note": "区块链上部署的非用户交互产生的\n代码数据，即预先定义好的智能合约代码。",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "dacnbsrk2140",
                                     "created": 1748928263979,
-                                    "text": "合约地址"
+                                    "text": "合约地址",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -183,7 +199,8 @@
                                 "data": {
                                     "id": "dacnbwrocbk0",
                                     "created": 1748928272694,
-                                    "text": "合约定义逻辑（函数）"
+                                    "text": "合约定义逻辑（函数）",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -191,7 +208,8 @@
                                 "data": {
                                     "id": "dacnbzih6nk0",
                                     "created": 1748928278668,
-                                    "text": "合约定义事件"
+                                    "text": "合约定义事件",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -199,7 +217,8 @@
                                 "data": {
                                     "id": "dacnc24c6l40",
                                     "created": 1748928284343,
-                                    "text": "合约定义变量"
+                                    "text": "合约定义变量",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             }
@@ -229,14 +248,16 @@
                                     "id": "dacng3djs4w0",
                                     "created": 1748928600534,
                                     "text": "应用",
-                                    "note": null
+                                    "note": null,
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dacnrqvaua80",
                                             "created": 1748929513679,
-                                            "text": "TVL是衡量 DeFi 协议市场占有率和吸引力的重要指标，TVL的增加通常表示协议的增长和吸引力。"
+                                            "text": "TVL是衡量 DeFi 协议市场占有率和吸引力的重要指标，TVL的增加通常表示协议的增长和吸引力。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -247,14 +268,16 @@
                                     "id": "dacng6aqxyw0",
                                     "created": 1748928606895,
                                     "text": "计算",
-                                    "note": "在某个质押协议上，Alice 存入 10 ETH，Bob 存入 20 ETH，则该协议的 TVL 为 30ETH。"
+                                    "note": "在某个质押协议上，Alice 存入 10 ETH，Bob 存入 20 ETH，则该协议的 TVL 为 30ETH。",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dacnrvgvl7s0",
                                             "created": 1748929523691,
-                                            "text": "TVL = 所有存入协议中的资产价值的总额（包含币种价值，常用USD或ETH计价）。"
+                                            "text": "TVL = 所有存入协议中的资产价值的总额（包含币种价值，常用USD或ETH计价）。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -276,14 +299,16 @@
                                     "id": "dacnhhzr5n40",
                                     "created": 1748928710716,
                                     "text": "应用",
-                                    "note": null
+                                    "note": null,
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dacns3y2la80",
                                             "created": 1748929542145,
-                                            "text": "在区块链网络中，活跃地址的数量能够反映区块链及应用的用户基础及增长趋势。"
+                                            "text": "在区块链网络中，活跃地址的数量能够反映区块链及应用的用户基础及增长趋势。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -294,14 +319,16 @@
                                     "id": "dacnhhsrvm00",
                                     "created": 1748928710293,
                                     "text": "计算",
-                                    "note": "在某个去中心化交易所的活动中，Alice、Bob和Charlie各自进行了交易，因此该时间段内有三个活跃地址。"
+                                    "note": "在某个去中心化交易所的活动中，Alice、Bob和Charlie各自进行了交易，因此该时间段内有三个活跃地址。",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dacns8654t40",
                                             "created": 1748929551340,
-                                            "text": "活跃地址数 = 在指定时间段内进行过交易的唯一地址数量"
+                                            "text": "活跃地址数 = 在指定时间段内进行过交易的唯一地址数量",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -323,14 +350,16 @@
                                     "id": "dacniob6jw80",
                                     "created": 1748928802831,
                                     "text": "应用",
-                                    "note": null
+                                    "note": null,
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dacnscyg45c0",
                                             "created": 1748929561758,
-                                            "text": "交易量通常衡量区块链网络的活跃度，它反映了有多少资产被转移或交换。"
+                                            "text": "交易量通常衡量区块链网络的活跃度，它反映了有多少资产被转移或交换。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -341,14 +370,16 @@
                                     "id": "dacniqd6vr40",
                                     "created": 1748928807306,
                                     "text": "计算",
-                                    "note": null
+                                    "note": null,
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dacnsh0og3s0",
                                             "created": 1748929570600,
-                                            "text": "交易数 = 特定时间段内所有交易哈希数量\n交易量 = 特定时间段内所有交易的代币数量价值总和（常用USD或ETH计价） 。"
+                                            "text": "交易数 = 特定时间段内所有交易哈希数量\n交易量 = 特定时间段内所有交易的代币数量价值总和（常用USD或ETH计价） 。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -370,14 +401,16 @@
                                     "id": "dacnjgxhrcw0",
                                     "created": 1748928865130,
                                     "text": "应用",
-                                    "note": null
+                                    "note": null,
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dacnssh4buo0",
                                             "created": 1748929595539,
-                                            "text": "交易费反映了区块链网络的拥堵程度和交易成本。"
+                                            "text": "交易费反映了区块链网络的拥堵程度和交易成本。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -388,14 +421,16 @@
                                     "id": "dacnjj2sv6o0",
                                     "created": 1748928869805,
                                     "text": "计算",
-                                    "note": null
+                                    "note": null,
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dacnsvbc76o0",
                                             "created": 1748929601720,
-                                            "text": "交易费 = 交易使用的Gas数量 × Gas价格。"
+                                            "text": "交易费 = 交易使用的Gas数量 × Gas价格。",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -426,7 +461,8 @@
                                     "id": "dacnlb3jkxk0",
                                     "created": 1748929009164,
                                     "text": "数据抽取 (Extract)",
-                                    "note": "数据抽取从区块链RPC节点或区块链浏览器 (如Etherscan)中获取原始数据。\n区块链数据通常以非结构化的日志形式存储，且包含大量的交易数据、状态信息和事件日志(Event, Log, Traces)。"
+                                    "note": "数据抽取从区块链RPC节点或区块链浏览器 (如Etherscan)中获取原始数据。\n区块链数据通常以非结构化的日志形式存储，且包含大量的交易数据、状态信息和事件日志(Event, Log, Traces)。",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -435,7 +471,8 @@
                                     "id": "dacnle4d1cg0",
                                     "created": 1748929015744,
                                     "text": "清洗转换 (Transform)",
-                                    "note": "智能合约被调用执行时的交易输入输出和日志数据通常以十六进制HEX格式存储，无法直接分析。\n合约解析需要通过智能合约ABI（应用二进制接口）将这些HEX格式的输入数据解码，恢复成原始函数参数等信息，使其能够以结构化的数据形式呈现（如数字、地址、字符串等）。"
+                                    "note": "智能合约被调用执行时的交易输入输出和日志数据通常以十六进制HEX格式存储，无法直接分析。\n合约解析需要通过智能合约ABI（应用二进制接口）将这些HEX格式的输入数据解码，恢复成原始函数参数等信息，使其能够以结构化的数据形式呈现（如数字、地址、字符串等）。",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -444,7 +481,8 @@
                                     "id": "dacnlh4wudk0",
                                     "created": 1748929022307,
                                     "text": "数据加载及分析 (Load)",
-                                    "note": "根据分析目标进行计算和查询。在区块链数据分析中，加载的数据通常是合约相关的交易记录和事件日志，并依据特定的指标进行筛选和聚合分析。"
+                                    "note": "根据分析目标进行计算和查询。在区块链数据分析中，加载的数据通常是合约相关的交易记录和事件日志，并依据特定的指标进行筛选和聚合分析。",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             }
@@ -463,14 +501,16 @@
                                     "id": "dacnlmqusmw0",
                                     "created": 1748929034518,
                                     "text": "数据源",
-                                    "note": "数据源提供对原始区块链数据的索引，它们通过节点或API访问不同的区块链网络，提取链上的交易、事件日志、合约信息等原始数据。"
+                                    "note": "数据源提供对原始区块链数据的索引，它们通过节点或API访问不同的区块链网络，提取链上的交易、事件日志、合约信息等原始数据。",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dacno0fdkyw0",
                                             "created": 1748929221027,
-                                            "text": "典型应用：The Graph, Alchemy"
+                                            "text": "典型应用：The Graph, Alchemy",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -481,14 +521,16 @@
                                     "id": "dacnlpzqr340",
                                     "created": 1748929041586,
                                     "text": "数据开发工具",
-                                    "note": "面向数据分析开发人员，可以完成ETL的工作，将交易、状态和事件日志数据解析成可以用SQL或GraphQL等传统语言查询的格式并存储在数据库中，供后续查询。自由定制程度高，不直接提供数据分析结果。"
+                                    "note": "面向数据分析开发人员，可以完成ETL的工作，将交易、状态和事件日志数据解析成可以用SQL或GraphQL等传统语言查询的格式并存储在数据库中，供后续查询。自由定制程度高，不直接提供数据分析结果。",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dacnoafj9w00",
                                             "created": 1748929242805,
-                                            "text": "典型应用：Dune, Flipside"
+                                            "text": "典型应用：Dune, Flipside",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -499,14 +541,16 @@
                                     "id": "dacnlskcm080",
                                     "created": 1748929047185,
                                     "text": "数据应用",
-                                    "note": "面向普通用户，提供可直接访问的数据内容，供投资者参考决策。一般会以数据可视化看板等提供结果，易读性强。自由定制程度低，用户只能阅读预先分析好的数据结果，较难按需求自行定制输出。"
+                                    "note": "面向普通用户，提供可直接访问的数据内容，供投资者参考决策。一般会以数据可视化看板等提供结果，易读性强。自由定制程度低，用户只能阅读预先分析好的数据结果，较难按需求自行定制输出。",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "dacnopb434o0",
                                             "created": 1748929275189,
-                                            "text": "典型应用：Nansen, Debank, DefiLlma"
+                                            "text": "典型应用：Nansen, Debank, DefiLlma",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -526,7 +570,8 @@
                                 "data": {
                                     "id": "dacnkmf8fvs0",
                                     "created": 1748928955451,
-                                    "text": "区块链浏览器 Etherscan\nhttps://etherscan.io/"
+                                    "text": "区块链浏览器 Etherscan\nhttps://etherscan.io/",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -534,7 +579,8 @@
                                 "data": {
                                     "id": "dacnkqbmbxc0",
                                     "created": 1748928963940,
-                                    "text": "Dune\nhttps://dune.com/home"
+                                    "text": "Dune\nhttps://dune.com/home",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             }
