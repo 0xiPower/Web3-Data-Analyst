@@ -10,7 +10,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"eightHundreds.vscode-mindmap"
+				"eightHundreds.vscode-mindmap",
+				"DavidAnson.vscode-markdownlint"
 			]
 		}
 	}
