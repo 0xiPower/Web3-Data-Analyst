@@ -1,0 +1,118 @@
+{
+    "root": {
+        "data": {
+            "id": "dadr8ma8mtc0",
+            "created": 1749040859175,
+            "text": "Dune使用教程"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "dadsgroul540",
+                    "created": 1749044318966,
+                    "text": "查看Dune上的数据看板",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dadvjfdutmg0",
+                            "created": 1749052990602,
+                            "text": "访问 dune.com"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dadvjipo8jc0",
+                            "created": 1749052997847,
+                            "text": "在搜索框中输入关键词"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dadvjtx66vk0",
+                            "created": 1749053022245,
+                            "text": "拓展：\n[Ethereum ETF 数据看板](https://dune.com/hildobby/eth-etfs)\n[通过其它数据网站做数据校验对比](https://sosovalue.xyz/assets/etf/us-btc-spot)"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dadsgurlldc0",
+                    "created": 1749044325663,
+                    "text": "在Dune上创建分析看板",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dadvwb3k6eg0",
+                            "created": 1749054000007,
+                            "text": "New query",
+                            "note": "创建Sql查询"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dadvwigdm1k0",
+                            "created": 1749054016019,
+                            "text": "New dashboard",
+                            "note": "创建可视化面板"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dadsgxf9gso0",
+                    "created": 1749044331447,
+                    "text": "编写Dune的查询",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dadvvozc3s00",
+                            "created": 1749053951862,
+                            "text": "使用区块链浏览器"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dadvvsly58o0",
+                            "created": 1749053959760,
+                            "text": "编写 SQL"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dadvvv64lqo0",
+                            "created": 1749053965333,
+                            "text": "调试 SQL"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "dadvvx9sjzc0",
+                            "created": 1749053969908,
+                            "text": "生成数据可视化"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.43"
+}
